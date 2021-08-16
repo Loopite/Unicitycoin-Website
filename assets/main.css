@@ -1,1 +1,145 @@
+/** Apply the default style */
+html {
+    background-color: #f5f5f7;
+}
 
+body, ul {
+    margin: 0;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: .25em 0;
+}
+
+.application__main_content-structure {
+    padding: 0 32px;
+}
+
+/** Import the default fonts */
+@font-face {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(fonts/sf-pro-display_regular.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: "SF Pro Display Semibold";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(fonts/sf-pro-display_semibold.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: "SF Pro Display Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url(fonts/sf-pro-display_bold.ttf) format("ttf");
+}
+
+/** Apply the header's style */
+.application__header_content-structure {
+    background-color: rgba(0, 0, 0, .8);
+    backdrop-filter: blur(10px);
+    top: 0;
+    position: sticky;
+    height: 44px;
+}
+
+
+.application__header_navigation-structure {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px 15px 20px;
+    max-width: 975px;
+    margin: auto;
+}
+
+.application__header_navigation-structure > li {
+    list-style: none;
+    font-family: "SF Pro Display bold", sans-serif;
+    color: #fff;
+}
+
+/** Apply the section's style */
+.application__advantages_multi-container {
+    display: grid;
+    grid-column-gap: 32px;
+}
+
+.application__portfolio_content-structure {
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.application__advantages_content-structure {
+    padding: 25px;
+    margin-bottom: 32px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.application__presentation_title-content {
+    color: #757575;
+}
+
+.application__presentation_description_content {
+    font-weight: bold;
+}
+
+.application__presentation_description-structure {
+    display: flex;
+}
+
+.application__presentation_title-container {
+    display: flex;
+    align-items: center;
+}
+
+.application__presentation_illustration-structure {
+    border-radius: 100%;
+    background-color: #757575;
+    padding: 8px;
+    height: 48px;
+    width: 48px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.application__presentation_illustration-network {
+    height: 40px;
+    width: 40px;
+}
+
+.application__advantages_multi-container {
+    display: grid;
+    grid-template-columns: repeat(attr(data-grid-columns), 1fr);
+    grid-column-gap: 32px;
+}
+
+.application__presentation_container-structure {
+    width: 75%;
+}
+
+/** Personalized progress bar */
+.application__progressbar_container-structure {
+    height: 24px;
+    border-radius: 12px;
+    background-color: #e6e6e6;
+}
+
+.application__progressbar_content-personalized {
+    border-radius: 12px;
+    background-color: #ccc;
+    width: 75.85%;
+    height: 100%;
+}
