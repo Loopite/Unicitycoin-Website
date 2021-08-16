@@ -1,4 +1,4 @@
-#Presentation
+# Presentation
 
 Unifycoin is a cryptocurrency which uses a  Proof Of Stake (POS) protocol to create new blocks during consensus.
 Although this crypto uses a peer to peer system, and so a decentralized form of technology, you can download the blockchain fast. Your transactions are shared with the whole network and confirmed.
