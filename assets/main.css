@@ -3,6 +3,12 @@ html {
     background-color: #f5f5f7;
 }
 
+a:active, a:hover, a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
 body, ul {
     margin: 0;
     font-family: "SF Pro Display", sans-serif;
