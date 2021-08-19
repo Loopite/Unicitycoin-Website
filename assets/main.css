@@ -1,3 +1,8 @@
+/*RESET CSS*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
 /** Apply the default style */
 html {
     background-color: #f5f5f7;
@@ -6,8 +11,11 @@ html {
 a:active, a:hover, a {
     color: #fff;
     text-decoration: none;
+    transition-duration: 1s;
 }
-
+a:hover{
+    letter-spacing: 1px;
+}
 
 body, ul {
     margin: 0;
@@ -47,6 +55,7 @@ h1, h2, h3, h4, h5, h6 {
     src: url(fonts/sf-pro-display_bold.ttf) format("ttf");
 }
 
+
 /** Apply the header's style */
 .application__header_content-structure {
     background-color: rgba(0, 0, 0, .8);
@@ -56,6 +65,25 @@ h1, h2, h3, h4, h5, h6 {
     height: 44px;
 }
 
+.sous {
+    display: none;
+    list-style-type: none;
+}
+.deroulant:hover .sous {
+    z-index: 1000;
+    position: absolute;
+    display: list-item !important;
+    background-color: rgba(0, 0, 0, .8);
+    backdrop-filter: blur(10px);
+    margin-top: 10px;
+    margin-left: -10px;
+    padding-left: 10px;
+    padding-right: 50px;
+    line-height: 1.5;
+}
+.deroulant:hover .sous li {
+    float: none;
+}
 
 .application__header_navigation-structure {
     display: flex;
