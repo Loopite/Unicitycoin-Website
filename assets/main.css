@@ -1,8 +1,3 @@
-/*RESET CSS*/
-*{
-    margin: 0px;
-    padding: 0px;
-}
 /** Apply the default style */
 html {
     background-color: #f5f5f7;
@@ -11,10 +6,6 @@ html {
 a:active, a:hover, a {
     color: #fff;
     text-decoration: none;
-    transition-duration: 1s;
-}
-a:hover{
-    letter-spacing: 1px;
 }
 
 body, ul {
@@ -65,24 +56,58 @@ h1, h2, h3, h4, h5, h6 {
     height: 44px;
 }
 
-.sous {
-    display: none;
-    list-style-type: none;
+/** Sub menu reference. */
+.application__quick_links-content {
+    font-size: 12px;
+    line-height: 1.33337;
+    letter-spacing: -.02em;
+    font-family: "SF Pro Display Regular","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-transform: uppercase;
+    color: #6e6e73;
+    font-weight: normal;
 }
-.deroulant:hover .sous {
-    z-index: 1000;
+
+.application__header_subnav-structure > li > a {
+    color: #1d1d1f;
+}
+
+.application__header_subnav-structure {
+    list-style: none;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    transition: 300ms all ease-out;
+    padding: 24px 40px 18px;
+    border-radius: 12px;
+    margin-top: 20px;
+    position: relative;
+    border: 1px solid #dbdbdb;
+}
+
+.application__header_subnav-structure::before {
+    border: 8px solid transparent;
+    border-bottom: 8px solid #dbdbdb;
+    content: "";
+    left: auto;
+    top: -16px;
+    display: inline-block;
     position: absolute;
-    display: list-item !important;
-    background-color: rgba(0, 0, 0, .8);
-    backdrop-filter: blur(10px);
-    margin-top: 10px;
-    margin-left: -10px;
-    padding-left: 10px;
-    padding-right: 50px;
-    line-height: 1.5;
+    color: #fff;
 }
-.deroulant:hover .sous li {
-    float: none;
+
+.application__header_subnav-structure::after {
+    border: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+    content: "";
+    left: 41px;
+    top: -14px;
+    position: absolute;
+}
+
+.application__header_items-content:hover .application__header_subnav-structure {
+    opacity: 1;
+    visibility: visible;
+    transition: 300ms all ease-out;
 }
 
 .application__header_navigation-structure {
@@ -118,10 +143,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 32px;
     background-color: #fff;
     border-radius: 12px;
-}
-
-.application__presentation_title-content {
-    color: #757575;
 }
 
 .application__presentation_description_content {
