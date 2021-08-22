@@ -91,52 +91,47 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
-.application__header_subnav-structure > li > a {
+.application__subnav_group-structure > li > a {
     color: #1d1d1f;
 }
 
-.application__header_subnav-structure > li > a:hover {
+.application__subnav_group-structure > li > a:hover {
     color: #06c;
 }
 
-.application__header_subnav-structure {
+.application__subnav_group-structure {  
     list-style: none;
-    opacity: 0;
-    visibility: hidden;
+    padding: 0;
+}
+
+.application__header_subnav-structure {
+    display: none;
+    padding-top: 20px;
+    position: absolute;
+}
+
+.application__header_dropdown-content {
     background: #fff;
-    transition: 150ms all ease-out;
     padding: 24px 40px 18px;
     border-radius: 12px;
-    margin-top: 20px;
-    position: relative;
-    border: 1px solid #dbdbdb;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Text", "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-.application__header_subnav-structure::before {
-    border: 8px solid transparent;
-    border-bottom: 8px solid #dbdbdb;
-    content: "";
-    left: auto;
-    top: -16px;
-    display: inline-block;
-    position: absolute;
-    color: #fff;
+.application__header_items-content:hover .application__header_subnav-structure {
+    display: block;
+    animation: dropdown-display .4s cubic-bezier(.73, .005, .22,1);
 }
 
-.application__header_subnav-structure::after {
-    border: 7px solid transparent;
-    border-bottom: 7px solid #fff;
-    content: "";
-    left: 41px;
-    top: -14px;
-    position: absolute;
-}
+@keyframes dropdown-display {
+    0% {
+        opacity:0;
+        transform:scale(.98) translateY(-.6em);
+    }
 
-.application__header_item-important:hover ~ .application__header_subnav-structure {
-    opacity: 1;
-    visibility: visible;
-    transition: 150ms all ease-out;
+    to {
+        opacity:1;
+        transform:scale(1) translateY(0);
+    }
 }
 
 .application__header_navigation-structure {
