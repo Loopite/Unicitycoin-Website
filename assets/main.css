@@ -23,11 +23,35 @@ h1, h2, h3, h4, h5, h6 {
 
 /** Import the default fonts */
 @font-face {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(fonts/sf-pro-text_regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "SF Pro Text Medium";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(fonts/sf-pro-text_medium.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "SF Pro Text Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url(fonts/sf-pro-text_bold.woff2) format("woff2");
+}
+
+@font-face {
     font-family: "SF Pro Display";
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url(fonts/sf-pro-display_regular.ttf) format("ttf");
+    src: url(fonts/sf-pro-display_regular.woff2) format("woff2");
 }
 
 @font-face {
@@ -35,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url(fonts/sf-pro-display_semibold.ttf) format("ttf");
+    src: url(fonts/sf-pro-display_semibold.woff2) format("woff2");
 }
 
 @font-face {
@@ -43,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
     font-weight: bold;
     font-display: swap;
-    src: url(fonts/sf-pro-display_bold.ttf) format("ttf");
+    src: url(fonts/sf-pro-display_bold.woff2) format("woff2");
 }
 
 
@@ -56,12 +80,12 @@ h1, h2, h3, h4, h5, h6 {
     height: 44px;
 }
 
+
 /** Sub menu reference. */
 .application__quick_links-content {
     font-size: 12px;
     line-height: 1.33337;
     letter-spacing: -.02em;
-    font-family: "SF Pro Display Regular","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     text-transform: uppercase;
     color: #6e6e73;
     font-weight: normal;
@@ -71,17 +95,22 @@ h1, h2, h3, h4, h5, h6 {
     color: #1d1d1f;
 }
 
+.application__header_subnav-structure > li > a:hover {
+    color: #06c;
+}
+
 .application__header_subnav-structure {
     list-style: none;
     opacity: 0;
     visibility: hidden;
     background: #fff;
-    transition: 300ms all ease-out;
+    transition: 150ms all ease-out;
     padding: 24px 40px 18px;
     border-radius: 12px;
     margin-top: 20px;
     position: relative;
     border: 1px solid #dbdbdb;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .application__header_subnav-structure::before {
@@ -104,10 +133,10 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
 }
 
-.application__header_items-content:hover .application__header_subnav-structure {
+.application__header_item-important:hover ~ .application__header_subnav-structure {
     opacity: 1;
     visibility: visible;
-    transition: 300ms all ease-out;
+    transition: 150ms all ease-out;
 }
 
 .application__header_navigation-structure {
@@ -122,6 +151,16 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
     font-family: "SF Pro Display bold", sans-serif;
     color: #fff;
+}
+
+/** Title principal. */
+#presentation {
+    font-family: "SF Pro Display bold", sans-serif;
+    font-size: 32px;
+}
+
+.application__progressbar_content-legend {
+    font-family: "SF Pro Text bold", sans-serif;
 }
 
 /** Apply the section's style */
@@ -146,11 +185,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .application__presentation_description_content {
-    font-weight: bold;
+    font-family: "SF Pro Text bold", sans-serif;
 }
 
 .application__presentation_description-structure {
     display: flex;
+}
+
+.application__presentation_title-content {
+    font-family: "SF Pro Text bold";
+    letter-spacing: -.05em;
 }
 
 .application__presentation_title-container {
@@ -177,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .application__advantages_multi-container {
     display: grid;
-    grid-template-columns: repeat(attr(data-grid-columns), 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 32px;
 }
 
