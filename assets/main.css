@@ -70,6 +70,14 @@ h1, h2, h3, h4, h5, h6 {
     src: url(fonts/sf-pro-display_bold.woff2) format("woff2");
 }
 
+@font-face {
+    font-family: "Raleway Thin";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(fonts/Raleway-Thin.ttf);
+}
+
 
 /** Apply the header's style */
 .application__header_content-structure {
@@ -147,6 +155,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "SF Pro Display bold", sans-serif;
     color: #fff;
 }
+
 
 /** Title principal. */
 #presentation {
@@ -237,3 +246,76 @@ h1, h2, h3, h4, h5, h6 {
     width: 75.85%;
     height: 100%;
 }
+
+/**Footer **/
+#menu {
+    position: fixed;
+    bottom:0;
+    right:0;
+ }
+ #menu, #menu ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    text-align: center;
+ }
+ #menu li {
+    display:inline-block;
+    position: relative;
+    background: #333;
+ }
+ #menu ul li {
+    display:block;
+    position: relative;
+    background: rgba(102, 102, 102, 0.8);
+    
+ }
+ #menu ul {
+    position:absolute;
+    height: 0;
+    width:100%;
+    overflow:hidden;
+    transition: all 1s;
+    top:0;
+ }
+ #menu li:hover ul {
+    top:-108px;
+    height: 110px;
+ }
+ #menu a {
+    color:#fff;
+    display:block;
+    height:30px;
+    line-height: 30px;
+    text-decoration: none;
+    padding:0 20px;
+ }
+ #menu ul li a {
+    padding:3px;
+ }
+
+
+ /**FAQ**/
+
+.faq_all_questions {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.faq_question_title{
+    text-align: center;
+    font-size:x-large;
+    font-family: 'Raleway Thin';
+    margin: 0px;
+} 
+
+.faq_question_block{
+    padding: 10px;
+}
+
+.faq_answer{
+    text-align: center;
+    font-size: large;
+    
+}
+
