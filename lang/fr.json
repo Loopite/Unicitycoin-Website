@@ -1,0 +1,66 @@
+{
+    "navbar" : {
+        "what-is" : "Qu'est ce qu'Unifycoin ?",
+        "information" : "Plus d'information",
+        "quick-learning" : "Apprentissage rapide pour les développeurs",
+        "p2p" : "Intégration des paires à paires",
+        "blockchain" : "Blockchain",
+        "transaction" : "Transactions",
+        "contract" : "Contrats",
+        "wallets" : "Portefeuille",
+        "payment" : "Traitement des paiements",
+        "pof" : "Proof Of Stake",
+        "documentation" : "Documentation pour les développeurs",
+        "faq" : "FAQ"
+    },
+    "index" : {
+        "presentation" : "Unifycoin est le réseau le plus rapide pour envoyer de l'argent à travers le monde.",
+        "title-first" : "Unifycoin est un système décentralisé.",
+        "p-first" : "Unifycoin utilise la technologie peer-to-peer pour fonctionner sans autorité centrale ni banque.<br><br>Toutes les transactions sont réparties via le réseau et seront vérifiées; la création de bloc est également dirigée par le protocole de consensus décentralisé.<br><br>Par conséquent, premièrement, le système est maintenu et sécurisé, deuxièmement, vous pouvez envoyer des Unifycoins et synchroniser la blockchain partout dans le monde. ",
+        "title-second" : "Une synchronisation rapide.",
+        "p-second" : "Nous vous recommandons de synchroniser la blockchain pour envoyer et obtenir la valeur optimal de votre solde.<br>Ainsi, nous avons établi une synchronisation rapide de la blockchain. Il y a un aperçu des performances.",
+        "block-second" : "2230 bloc",
+        "sync-second" : "Synchronisé en 1 seconde avec 1,5 Mb.s-¹.",
+        "title-third" : "Un coin extremement sécurisé.",
+        "p-third" : "Les Unifycoins ont un cryptage extrêmement bon, jamais vu auparavant avec 58<sup>27</sup> clés publiques possibles. La meilleure courbe elliptique est également utilisée pour crypter la clé privée vers la clé publique.",
+        "title-fourth" : "Un token écologique",
+        "p-fourth" : "Contrairement au Proof of Work (PoW), qui nécessite d'énormes quantités d'énergie, le Proof of Stake (PoS) donne une puissance de minage basée sur le pourcentage de pièces détenues par un mineur.",
+        "title-fifth" : "Des frais très bas",
+        "p-fifth" : "Evidemment, les frais de transaction varient. <br><br>Cela se résume à une formule simple et à un calcul en Kb."
+    },
+    "information" : {
+        "title-p2p" : "Paire à Paire",
+        "p-p2p" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut nobis ipsam aut eaque id obcaecati alias blanditiis dicta. Nesciunt magnam tenetur eaque officiis dignissimos tempore voluptate neque delectus minus laborum ad consectetur sunt vero magni illum expedita, consequuntur quia dolorum quos laudantium! Provident tempore sed cum pariatur minima dicta corrupti. Magnam explicabo dolorem commodi odit, eaque qui officia quis inventore sunt placeat ipsa vel molestias animi voluptas maiores quam aperiam, consequatur architecto mollitia obcaecati alias nihil minima! Voluptas similique harum eaque unde alias voluptatibus, magnam minima totam, sint fuga temporibus ducimus asperiores labore? Consequatur ab officiis cum tenetur voluptate?",
+        "title-blockchain" : "Blockchain",
+        "p-blockchain" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut nobis ipsam aut eaque id obcaecati alias blanditiis dicta. Nesciunt magnam tenetur eaque officiis dignissimos tempore voluptate neque delectus minus laborum ad consectetur sunt vero magni illum expedita, consequuntur quia dolorum quos laudantium! Provident tempore sed cum pariatur minima dicta corrupti. Magnam explicabo dolorem commodi odit, eaque qui officia quis inventore sunt placeat ipsa vel molestias animi voluptas maiores quam aperiam, consequatur architecto mollitia obcaecati alias nihil minima! Voluptas similique harum eaque unde alias voluptatibus, magnam minima totam, sint fuga temporibus ducimus asperiores labore? Consequatur ab officiis cum tenetur voluptate?",
+        "title-transactions" : "Transactions",
+        "p-transactions" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut nobis ipsam aut eaque id obcaecati alias blanditiis dicta. Nesciunt magnam tenetur eaque officiis dignissimos tempore voluptate neque delectus minus laborum ad consectetur sunt vero magni illum expedita, consequuntur quia dolorum quos laudantium! Provident tempore sed cum pariatur minima dicta corrupti. Magnam explicabo dolorem commodi odit, eaque qui officia quis inventore sunt placeat ipsa vel molestias animi voluptas maiores quam aperiam, consequatur architecto mollitia obcaecati alias nihil minima! Voluptas similique harum eaque unde alias voluptatibus, magnam minima totam, sint fuga temporibus ducimus asperiores labore? Consequatur ab officiis cum tenetur voluptate?",
+        "title-contracts" : "Contrats",
+        "p-contracts" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut nobis ipsam aut eaque id obcaecati alias blanditiis dicta. Nesciunt magnam tenetur eaque officiis dignissimos tempore voluptate neque delectus minus laborum ad consectetur sunt vero magni illum expedita, consequuntur quia dolorum quos laudantium! Provident tempore sed cum pariatur minima dicta corrupti. Magnam explicabo dolorem commodi odit, eaque qui officia quis inventore sunt placeat ipsa vel molestias animi voluptas maiores quam aperiam, consequatur architecto mollitia obcaecati alias nihil minima! Voluptas similique harum eaque unde alias voluptatibus, magnam minima totam, sint fuga temporibus ducimus asperiores labore? Consequatur ab officiis cum tenetur voluptate?",
+        "title-wallets" : "Portefeuille",
+        "p-wallets" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut nobis ipsam aut eaque id obcaecati alias blanditiis dicta. Nesciunt magnam tenetur eaque officiis dignissimos tempore voluptate neque delectus minus laborum ad consectetur sunt vero magni illum expedita, consequuntur quia dolorum quos laudantium! Provident tempore sed cum pariatur minima dicta corrupti. Magnam explicabo dolorem commodi odit, eaque qui officia quis inventore sunt placeat ipsa vel molestias animi voluptas maiores quam aperiam, consequatur architecto mollitia obcaecati alias nihil minima! Voluptas similique harum eaque unde alias voluptatibus, magnam minima totam, sint fuga temporibus ducimus asperiores labore? Consequatur ab officiis cum tenetur voluptate?",
+        "title-payments" : "Paiements",
+        "p-payments" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut nobis ipsam aut eaque id obcaecati alias blanditiis dicta. Nesciunt magnam tenetur eaque officiis dignissimos tempore voluptate neque delectus minus laborum ad consectetur sunt vero magni illum expedita, consequuntur quia dolorum quos laudantium! Provident tempore sed cum pariatur minima dicta corrupti. Magnam explicabo dolorem commodi odit, eaque qui officia quis inventore sunt placeat ipsa vel molestias animi voluptas maiores quam aperiam, consequatur architecto mollitia obcaecati alias nihil minima! Voluptas similique harum eaque unde alias voluptatibus, magnam minima totam, sint fuga temporibus ducimus asperiores labore? Consequatur ab officiis cum tenetur voluptate?",
+        "title-pos" : "Proof of Stake",
+        "p-pos" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ut nobis ipsam aut eaque id obcaecati alias blanditiis dicta. Nesciunt magnam tenetur eaque officiis dignissimos tempore voluptate neque delectus minus laborum ad consectetur sunt vero magni illum expedita, consequuntur quia dolorum quos laudantium! Provident tempore sed cum pariatur minima dicta corrupti. Magnam explicabo dolorem commodi odit, eaque qui officia quis inventore sunt placeat ipsa vel molestias animi voluptas maiores quam aperiam, consequatur architecto mollitia obcaecati alias nihil minima! Voluptas similique harum eaque unde alias voluptatibus, magnam minima totam, sint fuga temporibus ducimus asperiores labore? Consequatur ab officiis cum tenetur voluptate?"
+    },
+    "documentation" : {
+
+    },
+    "faq" : {
+        "presentation" : "FAQ",
+        "what-is-coin" : "Qu'est ce qu'Unifycoin ?",
+        "ans1" : "nifycoin est une crypto-monnaie décentralisée Proof Of Stake (POS) dont ses meilleurs atouts sont la vitesse et la sécurité.",
+        "what-is-crypto" : "Qu'est-ce qu'une \"crypto-monnaie\" ?",
+        "ans2" : "Une crypto-monnaie est une monnaie numérique sécurisée par cryptographie, contrairement aux monnaies conventionnelles (fiat) où elles sont sécurisées par un gouvernement ou un groupe de gouvernements.",
+        "what-is-dec" : "Qu'est-ce que la \"décentralisation\" ?",
+        "ans3" : "Unifycoin n'est géré par aucune entreprise ou personne individuelle. Tous les utilisateurs font partie du réseau Unifycoin.",
+        "what-is-pos" : "Qu'est ce que la \"Proof Of Stake (POS)\" ?",
+        "ans4" : "Le concept de Proof of Stake (PoS) stipule qu'une personne peut extraire ou valider des transactions en bloc en fonction du nombre de coin qu'elle détient.",
+        "loose" : "J'ai perdu mon portefeuille/clé privée, que puis-je faire ?",
+        "ans5" : "Par prévention, il est conseillé de sauvegarder votre portefeuille/clé privée. Si vous avez perdu votre clé privée, nous ne pouvons rien faire. Alors, pensez à la sauvegarder.",
+        "backup" : "Comment sauvegarder mon portefeuille ?",
+        "ans6" : "Vous devez sauvegarder le fichier \"wallet.dat\", vous pouvez le trouver dans le répertoire de données. Sous Windows, par défaut, il s'agit de <samp>\"%APPDATA%\\Unifycoin\\\"</samp>."
+
+    }
+}
